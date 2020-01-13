@@ -13,6 +13,9 @@
 		55FE747623CC1353003DB436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FE747423CC1353003DB436 /* Main.storyboard */; };
 		55FE747823CC1356003DB436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FE747723CC1356003DB436 /* Assets.xcassets */; };
 		55FE747B23CC1356003DB436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FE747923CC1356003DB436 /* LaunchScreen.storyboard */; };
+		55FE748423CC138F003DB436 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FE748223CC138F003DB436 /* MyTableViewCell.swift */; };
+		55FE748523CC138F003DB436 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FE748323CC138F003DB436 /* MyTableViewCell.xib */; };
+		55FE748D23CC2E00003DB436 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FE748C23CC2E00003DB436 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		55FE747723CC1356003DB436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FE747A23CC1356003DB436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FE747C23CC1356003DB436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FE748223CC138F003DB436 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		55FE748323CC138F003DB436 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		55FE748C23CC2E00003DB436 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				55FE746E23CC1353003DB436 /* AppDelegate.swift */,
+				55FE748C23CC2E00003DB436 /* RatingView.swift */,
 				55FE747023CC1353003DB436 /* SceneDelegate.swift */,
 				55FE747223CC1353003DB436 /* ViewController.swift */,
+				55FE748223CC138F003DB436 /* MyTableViewCell.swift */,
+				55FE748323CC138F003DB436 /* MyTableViewCell.xib */,
 				55FE747423CC1353003DB436 /* Main.storyboard */,
 				55FE747723CC1356003DB436 /* Assets.xcassets */,
 				55FE747923CC1356003DB436 /* LaunchScreen.storyboard */,
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FE747B23CC1356003DB436 /* LaunchScreen.storyboard in Resources */,
+				55FE748523CC138F003DB436 /* MyTableViewCell.xib in Resources */,
 				55FE747823CC1356003DB436 /* Assets.xcassets in Resources */,
 				55FE747623CC1353003DB436 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FE747323CC1353003DB436 /* ViewController.swift in Sources */,
+				55FE748423CC138F003DB436 /* MyTableViewCell.swift in Sources */,
 				55FE746F23CC1353003DB436 /* AppDelegate.swift in Sources */,
+				55FE748D23CC2E00003DB436 /* RatingView.swift in Sources */,
 				55FE747123CC1353003DB436 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
